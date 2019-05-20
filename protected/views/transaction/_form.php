@@ -4,7 +4,7 @@ $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
     'enableAjaxValidation'=>true,
 )); ?>
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-12">
      <div class="box box-primary">
         <div class="box-header with-border"></div>
            <div class="box-body">
@@ -32,7 +32,7 @@ $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
                 <div class="input-group-addon">
                   <i class="fa fa-calendar"></i>
                 </div>
-                <?php echo $form->textField($model, 'trans_date', array('class'=>'form-control date date_picker','placeholder' => 'Transaction Date','data-validation'=>"required",'data-validation'=>'required')); ?>
+                <?php echo $form->textField($model, 'trans_date', array('class'=>'form-control date date_picker','placeholder' => 'Transaction Date','data-validation'=>"required",'data-validation'=>'required','value'=>date('Y/m/d'))); ?>
                 <?php echo $form->error($model,'trans_date',array('style'=>'color:#FF0000'));?>
               </div>
         </div>

@@ -11565,3 +11565,153 @@ in C:\xampp\htdocs\app.noqnri\index.php (23)
 in C:\xampp\htdocs\app.noqnri\index.php (23)
 2019/05/20 17:39:27 [trace] [system.CModule] Loading "coreMessages" application component
 in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:42:54 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:42:54 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:42:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:42:54 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (34)
+2019/05/20 17:42:54 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (34)
+2019/05/20 17:42:54 [trace] [system.web.filters.CFilterChain] Running filter TransactionController.filteraccessControl()
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:42:55 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:42:55 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_transaction`
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_transaction`
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:42:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (3)
+2019/05/20 17:42:55 [trace] [system.db.ar.CActiveRecord] Card.findAllByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_l_card`
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_l_card`
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_l_card` `t` WHERE `t`.`card_issue_status`=:yp0
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:42:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (61)
+2019/05/20 17:42:55 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_profile_images`
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_profile_images`
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:42:55 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (35)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (35)
+2019/05/20 17:42:55 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\sidebar.php (7)
+2019/05/20 17:42:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\sidebar.php (7)
+2019/05/20 17:42:55 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (85)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (34)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (34)
+2019/05/20 17:43:33 [trace] [system.web.filters.CFilterChain] Running filter TransactionController.filteraccessControl()
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:43:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_transaction`
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_transaction`
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (3)
+2019/05/20 17:43:33 [trace] [system.db.ar.CActiveRecord] Card.findAllByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_l_card`
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_l_card`
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_l_card` `t` WHERE `t`.`card_issue_status`=:yp0
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (61)
+2019/05/20 17:43:33 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_profile_images`
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_profile_images`
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:43:33 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (35)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (35)
+2019/05/20 17:43:33 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\sidebar.php (7)
+2019/05/20 17:43:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\sidebar.php (7)
+2019/05/20 17:43:33 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (85)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (34)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (34)
+2019/05/20 17:44:35 [trace] [system.web.filters.CFilterChain] Running filter TransactionController.filteraccessControl()
+in C:\xampp\htdocs\app.noqnri\index.php (23)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:44:35 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_transaction`
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_transaction`
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (61)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (3)
+2019/05/20 17:44:35 [trace] [system.db.ar.CActiveRecord] Card.findAllByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_l_card`
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_l_card`
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_l_card` `t` WHERE `t`.`card_issue_status`=:yp0
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (15)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\app.noqnri\protected\views\transaction\_form.php (61)
+2019/05/20 17:44:35 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `nq_profile_images`
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `nq_profile_images`
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (15)
+2019/05/20 17:44:35 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (35)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\header.php (35)
+2019/05/20 17:44:35 [trace] [system.db.ar.CActiveRecord] ProfileImages.findByAttributes()
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\sidebar.php (7)
+2019/05/20 17:44:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `nq_profile_images` `t` WHERE `t`.`owner_id`=:yp0 AND `t`.`owner_type`=:yp1 LIMIT 1
+in C:\xampp\htdocs\app.noqnri\protected\views\layouts\sidebar.php (7)
+2019/05/20 17:44:35 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\app.noqnri\protected\controllers\TransactionController.php (85)
